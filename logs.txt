@@ -1,0 +1,4 @@
+Nombre imagen: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
+Nombre imagen: "Prueba7.jpg" - Palabras encontradas: ['hello', 'monday.']
+
+Valor retornado: False. No se encontraron las palabras de la imagen de prueba dentro de la imagen de control.

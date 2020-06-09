@@ -51,7 +51,7 @@ def main():
         if(opcion == '1'):
 
             while(True):
-                print("Ingrese el nombre de la imagen que quiere comparar con la Imagen de Control (alguna imagen dentro del bucket):")
+                print("Ingrese el nombre de la imagen (alguna imagen dentro del bucket):")
                 ImagenDePrueba = input()
                 if(path.exists(ImagenDePrueba)):
                     break
@@ -65,6 +65,7 @@ def main():
             NumCasoPrueba += 1
 
             if(TextoDePrueba == False):
+                print("False")
                 Archivo_logs.write("Valor retornado: False. Una o mas palabras no superaron la probabilidad de reconocimiento (97%).\n")
                 Archivo_logs.write("\n---------------------------------------------------------------------------------------------------------------\n\n")
             
@@ -79,10 +80,12 @@ def main():
                 Archivo_logs.write("Nombre imagen de prueba: \"" + ImagenDePrueba + "\" - Palabras encontradas: " + str(TextoDePrueba) + "\n\n")
 
                 if(set(TextoDeControl).issubset(set(TextoDePrueba))):
+                    print("True")
                     Archivo_logs.write("Valor retornado: True. Se encontraron las palabras de la imagen de control dentro de la imagen de prueba.")
                     Archivo_logs.write("\n\n---------------------------------------------------------------------------------------------------------------\n\n")
                 
                 else:
+                    print("False")
                     Archivo_logs.write("Valor retornado: False. No se encontraron las palabras de la imagen de control dentro de la imagen de prueba.")
                     Archivo_logs.write("\n\n---------------------------------------------------------------------------------------------------------------\n\n")
 

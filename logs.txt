@@ -1,15 +1,111 @@
 Caso de prueba 1:
 
-Valor retornado: False. Una o mas palabras no superaron la probabilidad de reconocimiento (97%).
+Nombre imagen de control: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
+Nombre imagen de prueba: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
+
+Valor retornado: True. Se encontraron las palabras de la imagen de control dentro de la imagen de prueba.
 
 ---------------------------------------------------------------------------------------------------------------
 
 Caso de prueba 2:
 
 Nombre imagen de control: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
-Nombre imagen de prueba: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
+Nombre imagen de prueba: "t02.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling', 'keep']
 
 Valor retornado: True. Se encontraron las palabras de la imagen de control dentro de la imagen de prueba.
+
+---------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 3:
+
+Nombre imagen de control: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
+Nombre imagen de prueba: "t03.png" - Palabras encontradas: ["it's", 'but', 'keep', 'smiling']
+
+Valor retornado: False. No se encontraron las palabras de la imagen de control dentro de la imagen de prueba.
+
+---------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 4:
+
+Valor retornado: False. Una o mas palabras no superaron la probabilidad de reconocimiento (97%).
+
+---------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 5:
+
+Nombre imagen de control: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
+Nombre imagen de prueba: "t05.png" - Palabras encontradas: ['testing', 'testing', 'testing', 'testing', 'testing', 'sting', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', "it's", 'monday', 'but', 'keep', 'smiling']
+
+Valor retornado: True. Se encontraron las palabras de la imagen de control dentro de la imagen de prueba.
+
+---------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 6:
+
+Nombre imagen de control: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
+Nombre imagen de prueba: "t06.png" - Palabras encontradas: ['testing', 'testing', 'testing', 'sting', 'testing', 'esting', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', 'testing', "it's", 'monday', 'but', 'keep']
+
+Valor retornado: False. No se encontraron las palabras de la imagen de control dentro de la imagen de prueba.
+
+---------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 7:
+
+Valor retornado: False. Una o mas palabras no superaron la probabilidad de reconocimiento (97%).
+
+---------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 8:
+
+Valor retornado: False. Una o mas palabras no superaron la probabilidad de reconocimiento (97%).
+
+---------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 9:
+
+Nombre imagen de control: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
+Nombre imagen de prueba: "t09.png" - Palabras encontradas: []
+
+Valor retornado: False. No se encontraron las palabras de la imagen de control dentro de la imagen de prueba.
+
+---------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 10:
+
+Valor retornado: False. Una o mas palabras no superaron la probabilidad de reconocimiento (97%).
+
+---------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 11:
+
+Nombre imagen de control: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
+Nombre imagen de prueba: "t11.png" - Palabras encontradas: ['but', 'keep', 'smiling', "it's", 'monday']
+
+Valor retornado: True. Se encontraron las palabras de la imagen de control dentro de la imagen de prueba.
+
+---------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 12:
+
+Nombre imagen de control: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
+Nombre imagen de prueba: "t12.png" - Palabras encontradas: ['monday']
+
+Valor retornado: False. No se encontraron las palabras de la imagen de control dentro de la imagen de prueba.
+
+---------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 13:
+
+Nombre imagen de control: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
+Nombre imagen de prueba: "t13.png" - Palabras encontradas: ["it's", 'monday', 'but', '@', 'keep', 'smiling.']
+
+Valor retornado: False. No se encontraron las palabras de la imagen de control dentro de la imagen de prueba.
+
+---------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 14:
+
+Valor retornado: False. Una o mas palabras no superaron la probabilidad de reconocimiento (97%).
 
 ---------------------------------------------------------------------------------------------------------------
 

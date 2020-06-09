@@ -1,0 +1,8 @@
+Pasos para la ejecución del código:
+1. Escribir por pantalla el comando "py Recognition.py"
+2. El sistema mostrará un menú con 2 opciones, una para ingresar el nombre de la imagen y otra para salir.
+3. Ingresar la opción 1 y colocar el nombre de alguna imagen dentro de la carpeta (estas imágenes están replicadas en mi bucket S3).
+4. Luego el sistema retornará True o False dependiendo del caso.
+5. Ingresar las imagenes de prueba que se deseen.
+6. Cuando se quiera terminar la ejecución, ingresar la opción 2.
+7. Al finalizar el programa, el log de cada caso se encontrará en el archivo "logs.txt".

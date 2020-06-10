@@ -1,7 +1,7 @@
 Caso de prueba 1:
 
 Nombre imagen de control: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
-Nombre imagen de prueba: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
+Nombre imagen de prueba: "t02.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling', 'keep']
 
 Valor retornado: True. Se encontraron las palabras de la imagen de control dentro de la imagen de prueba.
 
@@ -10,7 +10,7 @@ Valor retornado: True. Se encontraron las palabras de la imagen de control dentr
 Caso de prueba 2:
 
 Nombre imagen de control: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
-Nombre imagen de prueba: "t02.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling', 'keep']
+Nombre imagen de prueba: "Control.png" - Palabras encontradas: ["it's", 'monday', 'but', 'keep', 'smiling']
 
 Valor retornado: True. Se encontraron las palabras de la imagen de control dentro de la imagen de prueba.
 
